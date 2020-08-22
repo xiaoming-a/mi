@@ -1,0 +1,256 @@
+.header .login_title {
+  float: left;
+  width: 490px;
+  height: 48;
+}
+
+.login_cont {
+  background-image: url(../img/bag.jpg);
+  width: 100%;
+  height: 588px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.login_info {
+  float: right;
+  margin-top: 28px;
+  margin-right: 54px;
+  width: 410px;
+  height: 560px;
+  background-color: #fff;
+}
+
+.login_info .tabs {
+  width: 410px;
+  height: 82px;
+  text-align: center;
+  line-height: 82px;
+}
+
+.login_info .tabs a {
+  display: inline-block;
+  width: 92px;
+  height: 27px;
+  font-size: 22px;
+}
+
+.login_info .tabs span {
+  font-size: 20px;
+  margin: 0 35px;
+}
+
+.login_box {
+  width: 348px;
+  height: 478px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+.login_box ul li {
+  width: 348px;
+  height: 48px;
+}
+
+.zh {
+  position: absolute;
+  color: #ff6700;
+  margin-top: 3px;
+  display: none;
+}
+
+.login_box ul .mm {
+  position: absolute;
+  display: none;
+  color: #ff6700;
+  margin-top: 3px;
+}
+
+.login_box ul .mm,
+.zh::before {
+  font-family: 'icomoon';
+  content: '';
+}
+
+.pass {
+  margin-top: 20px;
+}
+
+.subm {
+  margin-top: 30px;
+}
+
+.login_box ul li #sub {
+  background-color: #ff6700;
+  border: 0;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.login_box ul li input {
+  width: 348px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  padding-left: 10px;
+}
+
+.login_box ul li>a {
+  display: block;
+  color: #ff6700;
+  text-align: center;
+}
+
+.ipon {
+  width: 348px;
+  height: 19px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.ipon a {
+  display: inline-block;
+  font-size: 14px;
+  color: #ff6700;
+}
+
+.fre {
+  width: 348px;
+  height: 19px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.fre a {
+  display: inline-block;
+  color: #999999;
+}
+
+.fre span {
+  color: #999999;
+  margin: 0 5px;
+}
+
+.qita {
+  width: 348px;
+  height: 208px;
+  margin-top: 18px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.qita .tit {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+}
+
+.qita .tit .tis {
+  color: #b0b0b0;
+  margin: 0 auto;
+}
+
+.tits>a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 17px;
+  padding-left: 6px;
+  border-radius: 50%;
+}
+
+.tits>a i {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.tits>a .i_l {
+  background: url(../img/icons_type.png);
+  background-position: -19px 0;
+}
+
+.tits>a .i_r {
+  background: url(../img/icons_type.png);
+  background-position: -38px 0;
+}
+
+.tits>a .i_x {
+  background: url(../img/icons_type.png);
+  background-position: -57px 0;
+}
+
+.tits>a .i_z {
+  background: url(../img/icons_type.png);
+  background-position: -86px 0;
+}
+
+.l {
+  background-color: #0288d1;
+}
+
+.r {
+  background-color: #d32f2f;
+}
+
+.x {
+  background-color: #0288d1;
+}
+
+.z {
+  background-color: #00d20d;
+}
+
+.login_box_l {
+  display: block;
+}
+
+/* 扫码登录 */
+.login_box_r {
+  display: none;
+}
+
+.erwei {
+  width: 348px;
+  height: 183px;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 183px;
+}
+
+.erwei img {
+  width: 182px;
+  height: 182px;
+}
+
+.qr_name {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1;
+  color: #999999;
+  text-align: center;
+}
+
+.qr_name span {
+  color: #ff6700;
+}
+
+.login_footer {
+  width: 100%;
+  height: 183px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.login_footer span {
+  color: #b0b0b0;
+  margin: 0 5px;
+}
+
+.login_footer p {
+  color: #b0b0b0;
+}

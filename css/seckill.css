@@ -1,0 +1,162 @@
+.dropdonw .dd {
+  display: none;
+}
+
+.seckill {
+  background-color: #f5f5f5;
+}
+
+.seckill .seckill_header {
+  height: 170px;
+  margin-top: 10px;
+  background: url(../img/seckill.jpg) no-repeat 50% 0;
+}
+
+.seckill .seckill_nav {
+  margin: -68px 0 22px;
+}
+
+
+.seckill .seckill_nav ul {
+  height: 68px;
+  background-color: #414141;
+}
+
+.seckill .seckill_nav ul li {
+  float: left;
+  display: block;
+  width: 20%;
+  height: 68px;
+  text-align: center;
+  line-height: 68px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.seckill .seckill_nav ul li em {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 18px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.seckill .seckill_nav ul li>span {
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.seckill .seckill_nav ul li>span em {
+  display: inline-block;
+  margin-left: 0;
+  font-size: 14px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.seckill .seckill_nav ul .active {
+  background-color: #f1393a;
+}
+
+.seckill_goods ul {
+  display: none;
+  margin-right: -13px;
+}
+
+.seckill_goods .goods_item {
+  display: none;
+}
+
+.seckill_goods ul li {
+  float: left;
+  margin: 0 13px 13px 0;
+  width: 400px;
+  height: 190px;
+  background-color: #fff;
+  transition: all 0.6s
+}
+
+.seckill_goods ul li:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 5px 10px 6px rgb(17, 16, 16, 0.1);
+}
+
+.seckill_goods ul li .goods_bg {
+  float: left;
+  width: 190px;
+  height: 190px;
+}
+
+.seckill_goods ul li .goods_bg img {
+  width: 190px;
+  height: 190px;
+}
+
+.seckill_goods ul li .goods_info {
+  margin-left: 210px;
+  padding-top: 30px;
+  width: 190px;
+  height: 190px;
+}
+
+.seckill_goods ul li .goods_info .goods_name {
+  display: block;
+  height: 16px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.seckill_goods ul li .goods_info .tips {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #b0b0b0;
+}
+
+.seckill_goods ul li .goods_info .goods_price {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f1393a;
+}
+
+.seckill_goods ul li .goods_info .goods_price del {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.seckill_goods ul li .goods_info .goods_btn {
+  display: block;
+  margin-top: 19px;
+  width: 118px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #f1393a;
+  background-color: #f1393a;
+}
+
+.seckill_goods ul li .goods_info .goods_person {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #999999;
+}
+
+.seckill_notice {
+  margin-top: 100px;
+  padding-bottom: 35px;
+  font-size: 12px;
+  color: #999999;
+}
